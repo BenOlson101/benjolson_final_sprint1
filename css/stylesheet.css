@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+text-align: center;
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 20px;
+}
+
+nav a {
+color: #524545;
+font-size: 18px;
+text-decoration: none;
+text-transform: uppercase;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #dbcfcf;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.about-me, .work-experience, .contact-info {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me img, .contact-info img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.about-me h2, .work-experience h2, .contact-info h2 {
+  color: #222;
+}
+
+.work-experience table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.work-experience th, .work-experience td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.work-experience th {
+  background-color: #222;
+  color: #fff;
+}
+
+.work-experience td:first-child {
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
