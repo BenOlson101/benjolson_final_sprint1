@@ -177,3 +177,17 @@ footer p {
   background-color: lightpink;
   transition: 0.4s;
 }
+
+.white-text {
+  color: white;
+}
+
+.white-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.white-text a:hover {
+  color: #cccccc;
+  text-decoration: underline;
+}
